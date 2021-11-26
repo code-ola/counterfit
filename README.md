@@ -1,4 +1,4 @@
-# CounterfitOLA
+# CounterfitFinalProject
 [About](#About) | [Getting Started](#Getting-Started) | [Learn More](#Learn-More) |  [Acknowledgments](#Acknowledgments) | [Contributing](#Contributing) | [Trademarks](#Trademarks) | [Contact Us](#Contact-Us)
 
 ```
