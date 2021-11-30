@@ -60,6 +60,36 @@ pip install -r requirements.txt
 python counterfit.py
 ```
 
+## Testing AI tools for Security and Vulnerabilities (including bias of AI/ML algorithms in race profiling)
+There are two catdegory of images in the Satellite images environment which are stadiums and airplane strips. The AI system is built to determine what category each image belongs to. The goal of this attack is to try to make the AI system choose wrongly.
+1. Interact with the target environment
+```
+interact satelliteimages
+```
+2. Load ART framework
+```
+load art
+```
+3. Use hop_skip_jump attack 
+```
+use hop_skip_jump
+```
+4. Set parameters for the attack.
+```
+set init_size=50 max_iter=20 max_eval=500
+```
+5. Use command predict to see initial scoring
+```
+predict
+```
+6. Run attack
+```
+run
+```
+7. Run the results
+```
+predict -r
+```
 ## Learn More
 
 Visit our [wiki](https://github.com/Azure/counterfit/wiki) for more detailed instructions on
