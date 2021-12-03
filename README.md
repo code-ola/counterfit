@@ -60,7 +60,7 @@ pip install -r requirements.txt
 python counterfit.py
 ```
 
-## Testing AI tools for Security and Vulnerabilities (including bias of AI/ML algorithms in race profiling)
+## Testing AI tools for Security and Vulnerabilities 
 There are two catdegory of images in the Satellite images environment which are stadiums and airplane strips. The AI system is built to determine what category each image belongs to. The goal of this attack is to try to make the AI system choose wrongly.
 1. Interact with the target environment
 ```
