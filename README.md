@@ -61,6 +61,7 @@ python counterfit.py
 ```
 
 ## Testing AI tools for Security and Vulnerabilities 
+### Demo 1 
 There are two catdegory of images in the Satellite images environment which are stadiums and airplane strips. The AI system is built to determine what category each image belongs to. The goal of this attack is to try to make the AI system choose wrongly.
 1. Interact with the target environment
 ```
@@ -87,6 +88,32 @@ predict
 run
 ```
 7. Run the results
+```
+predict -r
+```
+
+### Demo 2
+1. Interact with the target environment
+```
+interact moviereviews
+```
+2. Load ART framework
+```
+load textattack
+```
+3. Use deepwordbug attack 
+```
+use deepwordbug
+```
+4. Use command predict to see initial scoring
+```
+predict
+```
+5. Run attack
+```
+run
+```
+6. Run the results
 ```
 predict -r
 ```
