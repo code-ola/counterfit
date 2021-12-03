@@ -93,6 +93,7 @@ predict -r
 ```
 
 ### Demo 2
+There are two catdegory of reviews in the moviereviews environment which are positives and negatives. The AI system is built to determine what category each review belongs to. The goal of this attack is to try to make the AI system choose wrongly.
 1. Interact with the target environment
 ```
 interact moviereviews
